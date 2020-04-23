@@ -4,6 +4,7 @@ from flask_login import LoginManager
 
 # init SQLAlchemy so we can use it later in our models
 db = SQLAlchemy()
+admins = ["vivek.iyer@research.iiit.ac.in"]
 
 def create_app():
     app = Flask(__name__)

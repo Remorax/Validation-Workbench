@@ -1,10 +1,25 @@
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='index.css') }}">
+
 {% extends "base.html" %}
 
 {% block content %}
 <h1 class="title">
-  Flask Login Example
+  Crowdsourced Validation Workbench
 </h1>
 <h2 class="subtitle">
-  Easy authentication and authorization in Flask.
+  An easy-to-use workbench for basic data validation tasks.
 </h2>
 {% endblock %}
+
+{% block footer %}
+<footer class="footer" id="home-footer">
+  <div class="content has-text-centered">
+    <p>
+      Created by <a href="https://remorax.netlify.com/">Vivek Iyer </a> &nbsp; |  &nbsp;Fork this on <a href="https://github.com/Remorax/Validation-Workbench">GitHub</a>
+    </p>
+  </div>
+</footer>
+
+{% endblock %}
+
+
