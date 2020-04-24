@@ -1,11 +1,12 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
+from os.path import join, dirname, realpath
 
 # init SQLAlchemy so we can use it later in our models
 db = SQLAlchemy()
 admins = ["vivek.iyer@research.iiit.ac.in"]
-UPLOAD_FOLDER = 'uploads/'
+UPLOAD_FOLDER = join(dirname(realpath(__file__)), 'uploads/')
 
 def create_app():
     app = Flask(__name__)

@@ -1,0 +1,578 @@
+/type/object/type	Topic
+/type/object/type	Dish
+/type/object/type	Ontology Instance
+/type/object/type	Topic
+/type/object/type	Food
+/type/object/type	Cuisine
+/type/object/type	Bread
+/type/object/type	sww_base
+/type/object/type	Topic
+/type/object/type	Product
+/type/object/type	Man-made Thing
+/type/object/type	Topic
+/type/object/type	Italian loanword
+/type/object/type	Topic
+/type/object/type	Bread
+/type/object/type	Topic
+/type/object/type	Vocabulary Equivalent Topic
+/type/object/type	Topic
+/type/object/type	Food extra
+/type/object/type	Literature Subject
+/type/object/type	Cuisine Dish
+/type/object/type	Summary Cuisine
+/type/object/type	Advertised thing
+/type/object/type	List
+/type/object/type	Inanimate
+/type/object/type	Physically Instantiable
+/type/object/type	Non-Agent
+/type/object/key	/wikipedia/en_id/24768
+/type/object/key	/en/pizza
+/type/object/key	/wikipedia/en_title/Pizza
+/type/object/key	/wikipedia/de/Italienische_Pizza
+/type/object/key	/wikipedia/en/Pizza_dough
+/type/object/key	/wikipedia/en/Pizza_Pie
+/type/object/key	/wikipedia/en/Pizza_parlors
+/type/object/key	/wikipedia/en/Pizza_Parlor
+/type/object/key	/wikipedia/en/Pepperoni_pizza
+/type/object/key	/wikipedia/en/Pizza_pie
+/type/object/key	/wikipedia/en/PIZZA
+/type/object/key	/wikipedia/en/Pan_Pizza
+/type/object/key	/wikipedia/en/Margherita_pizza
+/type/object/key	/wikipedia/en/Pizza_toppings
+/type/object/key	/wikipedia/en/Pan_pizza
+/type/object/key	/wikipedia/en/Pizza_Margherita
+/type/object/key	/wikipedia/en/Ninja_Turtle_Food
+/type/object/key	/wikipedia/en/Stuffed_crust_pizza
+/type/object/key	/wikipedia/en/Pizzaria
+/type/object/key	/wikipedia/en/Pizza_places
+/type/object/key	/wikipedia/en/Pizaa
+/type/object/key	/wikipedia/en/Italian_pizza
+/type/object/key	/wikipedia/en/Marinara_pizza
+/type/object/key	/wikipedia/en/Pizza_margherita
+/type/object/key	/wikipedia/en/Pizza_parlour
+/type/object/key	/wikipedia/en/Pizza_crust
+/type/object/key	/wikipedia/en/Pizza_place
+/type/object/key	/wikipedia/en/Pizze
+/type/object/key	/wikipedia/en/Grandma_pizza
+/type/object/key	/wikipedia/en/Hawaiian_style
+/type/object/key	/wikipedia/en/Pizza_puffs
+/type/object/key	/wikipedia/en/Pizza_topping
+/type/object/key	/wikipedia/en/Pizzas
+/type/object/key	/wikipedia/en/Italian_Pie
+/type/object/key	/wikipedia/en/Peetza
+/type/object/key	/wikipedia/en/Anchovie_pizza
+/type/object/key	/wikipedia/en/Pizza_bread
+/type/object/key	/wikipedia/en/$D83C$DF55
+/type/object/key	/wikipedia/en/Cheese_pizza
+/type/object/key	/wikipedia/en/Pizza_puff
+/type/object/key	/wikipedia/en/Piza
+/type/object/key	/wikipedia/en/Pizza_shop
+/type/object/key	/wikipedia/en/Napoletana_pizza
+/type/object/key	/wikipedia/en/Pizza
+/type/object/key	/wikipedia/en/Stuffed_crust
+/common/topic/topical_webpage	http://www.geotick.com/pizza/
+/common/topic/article	Pizza /ˈpiːtsə/ is an oven-baked, flat, round bread typically topped with a tomato sauce, cheese...
+/common/topic/article	Pizza is the name of an oven-baked, flat, usually round bread covered with tomato sauce and...
+/common/topic/notable_for	Italian food
+/common/topic/notable_types	Cuisine
+/dining/cuisine/region_of_origin	Naples
+/dining/cuisine/region_of_origin	Italy
+/dining/cuisine/restaurant	Godfather's Pizza
+/dining/cuisine/restaurant	Little Caesars
+/dining/cuisine/restaurant	PizzaExpress
+/dining/cuisine/restaurant	Round Table Pizza
+/dining/cuisine/restaurant	Pizza Inn
+/dining/cuisine/restaurant	Papa John's Pizza
+/dining/cuisine/restaurant	Chuck E. Cheese's
+/dining/cuisine/restaurant	California Pizza Kitchen
+/dining/cuisine/restaurant	Pizza Hut
+/dining/cuisine/restaurant	Chicago Pizza
+/dining/cuisine/ingredients	Flour
+/dining/cuisine/ingredients	Yeast
+/dining/cuisine/ingredients	Olive oil
+/dining/cuisine/ingredients	Table salt
+/food/dish/cuisine	Italian food
+/food/dish/cuisine	Road food
+/food/dish/ingredients	Tomato sauce
+/food/dish/ingredients	Mozzarella
+/food/dish/recipes	Pizza Dough
+/user/micahsaul/advertising/advertised_thing/ad_campaigns	Little Caesars Radio Campaign
+/user/micahsaul/advertising/advertised_thing/ad_campaigns	Mellow Mushroom Campaign
+/base/popstra/product/sold_to	Teri Hatcher
+/base/skosbase/vocabulary_equivalent_topic/equivalent_concept	Fast Food, Pizza Chain, 14" pizza, cheese topping, regular crust
+/base/skosbase/vocabulary_equivalent_topic/narrower_concept	Fast Food, Pizza Chain, 14" pizza, cheese topping, thick crust
+/base/skosbase/vocabulary_equivalent_topic/narrower_concept	Pizza, cheese topping, thin crust, frozen, cooked
+/base/skosbase/vocabulary_equivalent_topic/narrower_concept	Pizza, cheese topping, regular crust, frozen, cooked
+/base/skosbase/vocabulary_equivalent_topic/narrower_concept	Pizza, pepperoni topping, regular crust, frozen, cooked
+/base/skosbase/vocabulary_equivalent_topic/narrower_concept	Fast Food, Pizza Chain, 14" pizza, sausage topping, thin crust
+/base/skosbase/vocabulary_equivalent_topic/narrower_concept	Pizza, meat and vegetable topping, regular crust, frozen, cooked
+/base/skosbase/vocabulary_equivalent_topic/narrower_concept	Fast Food, Pizza Chain, 14" pizza, pepperoni topping, thin crust
+/base/skosbase/vocabulary_equivalent_topic/narrower_concept	Pizza, cheese topping, rising crust, frozen, cooked
+/base/skosbase/vocabulary_equivalent_topic/narrower_concept	Fast Food, Pizza Chain, 14" pizza, meat and vegetable topping, regular crust
+/base/skosbase/vocabulary_equivalent_topic/narrower_concept	Fast Food, Pizza Chain, 14" pizza, sausage topping, regular crust
+/base/schemastaging/food_extra/narrower	Pizza Hut Cheese Pizza
+/base/schemastaging/food_extra/narrower	Domino's 14" Cheese Pizza
+/base/schemastaging/food_extra/narrower	KASHI Pizza Basil Pesto
+/base/schemastaging/food_extra/narrower	DiGiorno Pizza
+/base/schemastaging/food_extra/narrower	LITTLE CAESARS 14" Original Round Cheese Pizza
+/base/schemastaging/food_extra/narrower	Pizza Hut 14" Cheese Pizza
+/base/schemastaging/food_extra/narrower	Domino's 14"  Crunchy Thin Crust
+/base/schemastaging/food_extra/narrower	PIZZA HUT 12" Pepperoni Pizza
+/base/schemastaging/food_extra/narrower	Pizza Hut Pepperoni Pizza
+/base/schemastaging/food_extra/narrower	Little Caesars Original Round Pepperoni Pizza
+related	pizza
+related	pizza_pie
+related	pizza
+related	pizza
+related	frozen_pizza
+related	pizza
+related	pizza_dough
+related	pizza_oven
+related	pizza
+related	pizza_pie
+related	Anchovie_pizza
+related	Freezer_pizza
+related	Frozen_pizza
+related	Grilled_pizza
+related	Hawaiian_style
+related	Italian_Pie
+related	Italian_pizza
+related	Kebabpizza
+related	Largest_Pizza
+related	Marinara_pizza
+related	Napoletana_pizza
+related	Ninja_Turtle_Food
+related	Pan_Pizza
+related	Peetza
+related	Piza
+related	Pizaa
+related	PIZZA
+related	Pizza_bread
+related	Pizza_crust
+related	Pizza_dough
+related	Pizza_margherita
+related	Pizza_oven
+related	Pizza_Parlor
+related	Pizza_parlors
+related	Pizza_parlour
+related	Pizza_Pie
+related	Pizza_pie
+related	Pizza_place
+related	Pizza_places
+related	Pizza_shop
+related	Pizza_topping
+related	Pizza_toppings
+related	Pizzaria
+related	Pizzas
+related	Pizze
+related	Stuffed_crust
+related	White_pizza
+related	🍕
+related	Margherita
+description	Italian open pie made of thin bread dough spread with a spiced mixture of e.g. tomato sauce and cheese
+description	Pizza is a traditional Italian dish consisting of a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven.
+description	Italian dish of oven-baked bread with various toppings
+description	Oven specifically constructed to bake pizzas.
+description	An oven-baked flatbread covered with tomato sauce and additional toppings.
+description	Dough made of flour, water, yeast and sometimes salt, olive oil and sugar which is used to bake pizzas.
+description	A prebaked and deep-frozen pizza that is rebaked in the oven.
+description	A pizza.
+description	A single instance of this dish.
+example	He ate a whole pizza!
+example	Should we cook a frozen pizza for dinner?
+images	https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/a/a8/Hand-tossed_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/0/08/Pizza_im_Pizzaofen_von_Maurizio.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/4/43/Pizza_al_taglio.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/b/bc/Pizza-oven.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/a/a4/Pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/7/7c/Pizza_1_bg.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/c/c0/Pizza_with_tomatoes.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/4/49/Tk_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/a/a8/Hand-tossed_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/b/bd/Chicago-style_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/9/94/Pizza_8_bg.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/c/c0/Pizza_med_gorgonzola%2C_spinat_og_bacon%2C_March_2010.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/e/e9/Focaccia.png
+images	https://upload.wikimedia.org/wikipedia/commons/1/15/Calzone04.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/8/8a/Pizza_%2823%29.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/a/af/Pizza_2_bg.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/3/38/En-us-pizza.ogg
+images	https://upload.wikimedia.org/wikipedia/commons/2/28/Bread_and_wine.svg
+images	https://upload.wikimedia.org/wikipedia/commons/d/d7/Pizza-2.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/d/d7/Peperoni_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/2/2e/Shrimp_pizza_with_pesto_and_pinenuts_pdphoto.org.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/3/39/Pizza_quattro_stagioni.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/d/d1/Hawaiian_pizza_1.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/1/10/Hot_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/2/2d/Neapolitan_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/9/95/Pizza_with_various_toppings.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/a/ae/Kartoffel_pizza_%28with_border%29.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/5/5c/US_Navy_070406-N-2959L-756_Members_of_USS_Ronald_Reagan_%28CVN_76%29_First_Class_Association_prepare_and_put_toppings_on_pizzas_in_the_galley_as_part_of_a_special_dinner_prepared_for_the_crew.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/b/b0/NewYorkSlices.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/b/b0/Pizza_tasting_in_the_Roosevelt_Room.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/d/d7/Pizza_baking_in_Wood-fired_oven.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/0/04/Jupiter_-_Flickr_-_Joe_Parks.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/f/f4/Pizza.png
+images	https://upload.wikimedia.org/wikipedia/commons/7/7a/It-pizza.ogg
+images	https://upload.wikimedia.org/wikipedia/commons/0/07/Pizza_%2822%29.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza_4_bg.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/e/ec/Pizza_5_bg.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/0/05/Pizza_3_bg.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/a/ae/Pizza_in_oven.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/9/97/Sardellenpizza.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/c/c9/CHEESE_AND_TOMATO_PIZZA.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/9/92/046_pizza%2C_sanok%2C_szwejk_2012.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/4/4f/Pizza_con_acciughe_e_cipolla.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/f/fb/%28%28peperoni_pizza%29%29_Al_Forno%2C_Quito.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/3/3a/Pizza_delivery_moped_HongKong.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/d/db/Flickr_-_cyclonebill_-_Pizza_med_fire_slags_svampe%2C_tr%C3%B8ffelolie_og_pinjekerner_%281%29.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/8/8c/Sliced_pizza_cake%2C_Windsor%2C_Ontario.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Naples.svg
+images	https://upload.wikimedia.org/wikipedia/commons/0/04/Chocolate_Pizza.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/d/df/PizzellePlate.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/9/9e/HK_Sheung_Wan_%E5%96%9C%E6%82%85%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6_Hei_Yuet_Seafood_Restaurant_%E7%85%8E%E8%96%84%E9%90%BA_Chinese_Pizza_Cake_May-2010.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/e/e4/Matzo_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/9/9f/Zeus_Pizza_Spinat.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/3/37/P_Food.png
+images	https://upload.wikimedia.org/wikipedia/commons/4/4c/Pizzolo.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/b/b8/Okonomiyaki_-_shrimp_and_cheese_okonomiyaki.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/f/f1/HomemadeStromboliAug05.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/5/54/Calzone_fritto.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/3/3f/Vegetarian_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/b/ba/New_York-Style_Pizza.png
+images	https://upload.wikimedia.org/wikipedia/commons/8/8d/Afghan_bread.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/0/0b/Pizzeria_Port_Alba.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/a/a3/Pizza_Hut_Athens_OH_USA.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/7/78/Karjalanpiirakka-20060227.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/f/fb/Tarte_flamb%C3%A9e_alsacienne_514471722.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/e/e2/Goblet_Glass_%28Banquet%29.svg
+images	https://upload.wikimedia.org/wikipedia/commons/0/00/Pizza_2.jpg
+images	https://upload.wikimedia.org/wikipedia/ms/1/16/Pizza_satay.gif
+images	https://upload.wikimedia.org/wikipedia/commons/8/8b/Huge_Pizza1.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/f/fa/Greek_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/1/19/Pizzamesser.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/b/be/Il_Pizzaiuolo.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/8/8a/Pizza_close_up.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/8/8c/Pizza_Calzone.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/e/ec/Celozrn%C3%A1_pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/b/b8/Pizza_Hawaii_02.jpg
+images	https://upload.wikimedia.org/wikipedia/ms/c/c4/Sataypizza_lge.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/1/19/Nl-Pizza-article.ogg
+images	https://upload.wikimedia.org/wikipedia/ja/b/b2/PizzaMargarita.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/b/ba/Pizza_hut_moscow.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/d/de/Pizza_napolitana.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/7/7c/Pizza_bella_vista.jpg
+images	https://upload.wikimedia.org/wikipedia/it/d/d8/Pizzabrasiliana.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/8/88/Pizza_Toscana_in_box.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/3/31/Pizza_Napoli_Brandi.jpeg
+images	https://upload.wikimedia.org/wikipedia/commons/e/ea/Pizza_with_pineapple.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/f/fe/Salad_pizza_with_shrimp.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/0/04/Cooked_neapolitan_pizza.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/4/4b/Giordano%27s_Deep_Dish_Pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/0/0f/Pizza_Frutti_di_Mare%2C_5.1.2016.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/e/e0/Beautiful_homemade_pizza_02.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/c/ce/Pizza_kasher_from_ghetto_roma.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/1/13/Italian_pizza_from_stockholm.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/9/99/Pizza-vegetariana-riga-01.08.08.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/0/01/Gaspizzaofen-kammer_aerdt-gif.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/b/ba/Traditional_pizza_from_Napoli.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/1/1c/Blondie%27s_pepperoni_pizza_slice.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/e/e6/Israeli_Pizza_w_Corn_BRiboa_3124.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/1/1f/Pizza_by_Vadszederke_with_lilac.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/9/95/Pizza_con_funghi_e_olive_chiang_mai.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/4/40/Bristol_Farms_Chicago_Deep_Dish_meat_pizza.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/c/c7/Distributeur_de_pizza_-_Orl%C3%A9ans_%28France%29_-_rue_du_Poirier.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/7/7f/Flickr_-_cyclonebill_-_Kartoffelpizza_med_rosmarinpesto.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/f/f1/These_pitas_are_just_right_for_individual_pizzas_%284977916987%29.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/9/98/Spaghetti_all%27_arrabbiata.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/6/69/Tallriksmodellen.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/9/9a/%D7%A4%D7%99%D7%A6%D7%94_%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%AA.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/7/73/Neapolitan_Express_food_truck%2C_2013-09-16.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/9/97/Emoji_u1f379.svg
+images	https://upload.wikimedia.org/wikipedia/commons/2/2a/Pizza_capricciosa.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/2/21/3o5dots.svg
+images	https://upload.wikimedia.org/wikipedia/commons/c/cb/Veneziana_Pizza.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/6/6d/20000227--calzone.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/2/2b/Crystal_Clear_action_half_lock.png
+images	https://upload.wikimedia.org/wikipedia/commons/f/f8/Princess_Margrethe_of_Savoy_-_Project_Gutenberg_eText_13955.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/a/a4/Couscous-1.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/2/23/Little_Caesars_delivery_Hummer.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/b/ba/Map_symbol_dining_02.png
+images	https://upload.wikimedia.org/wikipedia/commons/3/3c/Speakerlink.svg
+images	https://upload.wikimedia.org/wikipedia/commons/e/e2/Italian_cooking_icon.svg
+images	https://upload.wikimedia.org/wikipedia/commons/3/3b/Speakerlink-new.svg
+images	https://upload.wikimedia.org/wikipedia/commons/1/13/Peppes_Arendal.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/1/1d/1_Calzone.JPG
+images	https://upload.wikimedia.org/wikipedia/commons/5/56/Pizzaiolo-1830.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/c/c8/Glass_of_wine.png
+images	https://upload.wikimedia.org/wikipedia/commons/c/c5/Foods.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/1/1b/Mittelmeeranrainer.png
+images	https://upload.wikimedia.org/wikipedia/commons/8/8d/Basic_Pizza_in_Lappeenranta%2C_Finland.jpg
+images	https://upload.wikimedia.org/wikipedia/commons/2/27/Pompei_pane.jpg
+images	https://upload.wikimedia.org/wikipedia/en/9/9e/Mirandola-stemma.gif
+images	https://upload.wikimedia.org/wikipedia/commons/f/fe/WFromage.png
+images	https://upload.wikimedia.org/wikipedia/commons/9/95/Wine_template.gif
+images	https://upload.wikimedia.org/wikipedia/commons/f/fc/Flameukeusche_1.jpg
+images	https://upload.wikimedia.org/wikipedia/it/6/63/Nuvola_mimetypes_charnotfound.PNG
+images	https://upload.wikimedia.org/wikipedia/commons/2/2e/Cheese.svg
+images	https://upload.wikimedia.org/wikipedia/commons/a/aa/Picto_infobox_mets.png
+images	https://upload.wikimedia.org/wikipedia/commons/7/7f/Wikibooks-logo-35px.png
+images	https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg
+images	https://upload.wikimedia.org/wikipedia/commons/1/1c/Flag_of_Jersey.svg
+images	https://upload.wikimedia.org/wikipedia/commons/c/c0/Pizza_with_tomatoes.jpg
+category	Flatbread_dishes
+category	Greek_inventions
+category	Italian-American_cuisine
+category	Italian_cuisine
+category	Italian_inventions
+category	Mediterranean_cuisine
+category	National_dishes
+category	Pizza
+category	Popular_culture
+category	World_cuisine
+domain	FOOD_AND_DRINK
+compounds	Pizza_Ranch
+compounds	pizza_sauce
+compounds	National_Pizza_Month
+compounds	pizza_parlor
+compounds	pizza_saver
+compounds	pizza_delivery
+compounds	pizza_cheese
+compounds	Hawaiian_pizza
+compounds	Margherita_pizza
+compounds	pizza_Pizza
+compounds	pizza_shop
+compounds	pizza_chain
+compounds	American_pizza
+compounds	gourmet_pizza
+compounds	Neapolitan_pizza
+compounds	New_York-style_pizza
+other forms	pizzerias
+other forms	frozen_pizzas
+other forms	pizzeria
+images	https://commons.wikimedia.org/wiki/File:Pizza_with_avocado.jpg
+hypernym	Dish
+type	Thing
+url	https://en.wikipedia.org/wiki/Pizza
+description	Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients baked at a high temperature, traditionally in a wood-fired oven. 
+hyponym	Cajun Pizza
+hyponym	AmericanHot Pizza
+hyponym	FrutosDoMar Pizza
+hyponym	Siciliana Pizza
+hyponym	PizzaComUmNome Pizza
+hyponym	Parmense Pizza
+hyponym	Margherita Pizza
+hyponym	Capricciosa Pizza
+hyponym	Caprina Pizza
+hyponym	American Pizza
+hyponym	Rosa Pizza
+hypernym	DomainThing
+hyponym	FourSeasons Pizza
+hyponym	Cogumelo Pizza
+hyponym	CoberturaPrinceCarlo Pizza
+hyponym	PolloAdAstra Pizza
+hyponym	SloppyGiuseppe Pizza
+hyponym	QuatroQueijos Pizza
+hyponym	Napoletana Pizza
+hyponym	PizzaAberta Pizza
+hyponym	Soho Pizza
+hyponym	LaReine Pizza
+hyponym	Fiorentina Pizza
+hypernym	Food
+hyponym	Veneziana Pizza
+hyponym	Giardiniera Pizza
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Thing
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FunctionalSubstance
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.wikidata.org/entity/Q2095
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://dbpedia.org/ontology/Food
+http://www.w3.org/2000/01/rdf-schema#comment	Pizza is a flatbread generally topped with tomato sauce and cheese and baked in an oven. It is commonly topped with a selection of meats, vegetables and condiments. The term was first recorded in the 10th century, in a Latin manuscript from Gaeta in Central Italy. The modern pizza was invented in Naples, Italy, and the dish and its variants have since become popular in many areas of the world.
+http://purl.org/dc/terms/subject	http://dbpedia.org/resource/Category:Flatbread_dishes
+http://purl.org/dc/terms/subject	http://dbpedia.org/resource/Category:Greek_inventions
+http://purl.org/dc/terms/subject	http://dbpedia.org/resource/Category:Italian-American_cuisine
+http://purl.org/dc/terms/subject	http://dbpedia.org/resource/Category:Italian_cuisine
+http://purl.org/dc/terms/subject	http://dbpedia.org/resource/Category:Italian_inventions
+http://purl.org/dc/terms/subject	http://dbpedia.org/resource/Category:Mediterranean_cuisine
+http://purl.org/dc/terms/subject	http://dbpedia.org/resource/Category:Pizza
+http://purl.org/dc/terms/subject	http://dbpedia.org/resource/Category:Popular_culture
+http://purl.org/dc/terms/subject	http://dbpedia.org/resource/Category:World_cuisine
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Campania
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Champagne
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Conveyor_belt
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Lobster
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_Hut
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Provence
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Tomato_sauce
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Cheese
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Sicilian_pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Planet_Money
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Focaccia
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Conventional_ovens
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Atlantic_Canadian
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_Pockets
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Lombardi's_Pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Saveur
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pepperoni
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Vegetable_oil
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Ricotta
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Calzone
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Provolone
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Tomato_purée
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pastrmajlija
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_stone
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_cake
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Ancient_Greece
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Margherita_of_Savoy
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Central_Italy
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Sfiha
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Panzerotti
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Scamorza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Anatolia
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Category:Flatbread_dishes
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Category:Greek_inventions
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Category:Italian-American_cuisine
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Category:Italian_cuisine
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Category:Italian_inventions
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Category:Mediterranean_cuisine
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Category:Pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Category:Popular_culture
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Category:World_cuisine
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Christmas
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/European_Union
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Italy
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Lazio
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Levant
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/List_of_Italian_dishes
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Lombards
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Lycopene
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Morocco
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Mozzarella
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pecorino_Romano
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Piedmont
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_cheese
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Marinara_sauce
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Crème_fraîche
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/San_Marzano_tomato
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Farinata
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Filo
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Naples,_Italy
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Anchovy
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Johannesburg
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Mount_Vesuvius
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Naples
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Gaeta
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Southern_Italy
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Stromboli_(food)
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Antica_Pizzeria_Port'Alba
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Palace_of_Capodimonte
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pissaladière
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Take_and_bake_pizzeria
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Domino's
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Socca
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Alsace
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Tanzania
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Zanzibar
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Guinness_World_Records
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Peel_(tool)
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_delivery
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pita
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Fast_food
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Frozen_food
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Late_Latin
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Manakish
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_theorem
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/List_of_pizza_chains
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Ancient_Greek
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Italian_cuisine
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Lombardic_language
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Mediterranean_diet
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Neapolitan_cuisine
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Neapolitan_pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Proofing_(baking_technique)
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Republic_of_Macedonia
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/South_Africa
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Mass-produced
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Guinness_Book_of_Records
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pick_'n_Pay_Stores_Limited
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Italian_Campaign_(World_War_II)
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Papa_John's_Pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Buffalo_mozzarella
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Okonomiyaki
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Venison
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Grilled_pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Lahmacun
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pastilla
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_bagel
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Garlic_fingers
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Masonry_oven
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizzeria
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/White_truffle
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Sicily,_Italy
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/NPR
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Easter_Sunday
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/National_Pizza_Month
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Smoked_salmon
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_pugliese
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Boletus_edulis
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Caviar
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/New_York-style_pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/California-style_pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Flatbread
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Greek_pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_strips
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Tarte_flambée
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Traditional_Speciality_Guaranteed
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Protected_designation_of_origin
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_saver
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Turin
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Chicago-style_pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pancetta
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Attic_dialect
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Fontina_cheese
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_farm
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/List_of_baked_goods
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_Rolls
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/List_of_pizza_varieties_by_country
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Matzah_pizza
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Buffalo_Mozzarella
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Edible_gold
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Cognac_(drink)
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/List_of_pizza_chains_of_the_United_States
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Pizza_capricciosa
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Mizuna_lettuce
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/The_Washingtonian_(magazine)
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/File:Tarte_flambée_alsacienne_514471722.jpg
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/File:Calzone04.jpg
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/File:Hot_pizza.jpg
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/File:NewYorkSlices.jpg
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/File:Pizza_with_various_toppings.jpg
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/File:Vegetarian_pizza.jpg
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/Wikt:pizzaiolo
+http://dbpedia.org/ontology/wikiPageWikiLink	http://dbpedia.org/resource/File:Eq_it-na_pizza-margherita_sep2005_sml.jpg
+http://dbpedia.org/ontology/wikiPageExternalLink	http://www.qsrmagazine.com/news/expert-guide-world-class-pizza
+http://dbpedia.org/ontology/wikiPageExternalLink	http://www.npr.org/blogs/money/2014/02/26/282132576/74-476-reasons-you-should-always-get-the-bigger-pizza
+http://dbpedia.org/ontology/wikiPageExternalLink	http://www.saveur.com/article/hubs/Pizza-Guide
+http://dbpedia.org/ontology/wikiPageExternalLink	http://www.washingtonian.com/articles/food-dining/easy-as-pie-a-guide-to-regional-pizza-styles/
+http://xmlns.com/foaf/0.1/depiction	http://commons.wikimedia.org/wiki/Special:FilePath/Pepperoni_pizza.jpg
+http://purl.org/dc/elements/1.1/type	Lunch or dinner
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf	http://en.wikipedia.org/wiki/Pizza
+http://dbpedia.org/ontology/thumbnail	http://commons.wikimedia.org/wiki/Special:FilePath/Pepperoni_pizza.jpg?width=300
+http://www.w3.org/ns/prov#wasDerivedFrom	http://en.wikipedia.org/wiki/Pizza?oldid=737519413
+http://dbpedia.org/ontology/abstract	Pizza is a flatbread generally topped with tomato sauce and cheese and baked in an oven. It is commonly topped with a selection of meats, vegetables and condiments. The term was first recorded in the 10th century, in a Latin manuscript from Gaeta in Central Italy. The modern pizza was invented in Naples, Italy, and the dish and its variants have since become popular in many areas of the world. In 2009, upon Italy's request, Neapolitan pizza was safeguarded in the European Union as a Traditional Speciality Guaranteed dish. The Associazione Verace Pizza Napoletana (the True Neapolitan Pizza Association) is a non-profit organization founded in 1984 with headquarters in Naples. It promotes and protects the "true Neapolitan pizza". Pizza is sold fresh or frozen, either whole or in portions, and is a common fast food item in Europe and North America. Various types of ovens are used to cook them and many varieties exist. Several similar dishes are prepared from ingredients commonly used in pizza preparation, such as calzone and stromboli.
+http://dbpedia.org/ontology/country	http://dbpedia.org/resource/Campania
+http://dbpedia.org/ontology/country	http://dbpedia.org/resource/Italy
+http://dbpedia.org/ontology/country	http://dbpedia.org/resource/Naples
+http://dbpedia.org/ontology/hasVariant	http://dbpedia.org/resource/Calzone
+http://dbpedia.org/ontology/hasVariant	http://dbpedia.org/resource/Panzerotti
+http://dbpedia.org/ontology/hasVariant	http://dbpedia.org/resource/Stromboli_(food)
+http://dbpedia.org/ontology/ingredient	http://dbpedia.org/resource/Tomato_sauce
+http://dbpedia.org/ontology/ingredient	http://dbpedia.org/resource/Cheese
+http://dbpedia.org/ontology/ingredientName	Dough, oftentomato sauce,cheese
+http://dbpedia.org/ontology/servingTemperature	Hot or warm
+http://dbpedia.org/ontology/type	http://dbpedia.org/resource/Flatbread
+http://dbpedia.org/property/caption	Pizza topped with pepperoni
+http://purl.org/linguistics/gold/hypernym	http://dbpedia.org/resource/Flatbread
