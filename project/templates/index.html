@@ -1,25 +1,59 @@
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='index.css') }}">
+<!DOCTYPE html>
+<html>
 
-{% extends "base.html" %}
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Validation Workbench</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='index.css') }}">
+    </head>
 
-{% block content %}
-<h1 class="title">
-  Crowdsourced Validation Workbench
-</h1>
-<h2 class="subtitle">
-  An easy-to-use workbench for basic data validation tasks.
-</h2>
-{% endblock %}
+    <body>
+        <section class="hero is-primary is-fullheight">
 
-{% block footer %}
-<footer class="footer" id="home-footer">
-  <div class="content has-text-centered">
-    <p>
-      Created by <a href="https://remorax.netlify.com/">Vivek Iyer </a> &nbsp; |  &nbsp;Fork this on <a href="https://github.com/Remorax/Validation-Workbench">GitHub</a>
-    </p>
-  </div>
-</footer>
+            <div class="hero-head">
+                <nav class="navbar">
+                    <div class="container">
 
-{% endblock %}
+                        <div id="navbarMenuHeroA" class="navbar-menu">
+                            <div class="navbar-end">
+                                <a href="{{ url_for('main.index') }}" class="navbar-item">
+                                    Home
+                                </a>
+                                <a href="{{ url_for('auth.login') }}" class="navbar-item">
+                                    Login
+                                </a>
+                                <a href="{{ url_for('auth.signup') }}" class="navbar-item">
+                                    Sign Up
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
 
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                   <h1 class="title">
+                      Crowdsourced Validation Workbench
+                    </h1>
+                    <h2 class="subtitle">
+                      An easy-to-use workbench for basic data validation tasks.
+                    </h2>
+                </div>
+            </div>
+            
+        </section>
+        <footer class="footer" id="home-footer">
+          <div class="content has-text-centered">
+            <p>
+              Created by <a href="https://remorax.netlify.com/">Vivek Iyer </a> &nbsp; |  &nbsp;Fork this on <a href="https://github.com/Remorax/Validation-Workbench">GitHub</a>
+            </p>
+          </div>
+        </footer>
+    </body>
 
+</html>

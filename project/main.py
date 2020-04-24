@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request
 from flask_login import login_required, current_user
 from . import db, admins
 
@@ -14,3 +14,8 @@ def dashboard():
     if current_user.email in admins:
         return render_template('admin_dashboard.html')
     return render_template('user_dashboard.html', name=current_user.name)
+
+@main.route('/fileupload', methods=['POST'])
+def upload():
+    print ("yup")
+    print (request.files)
