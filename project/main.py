@@ -31,7 +31,6 @@ def show_response():
     files.sort(key=os.path.getmtime, reverse=True)
     file_path = files[int(file_idx)]
     file = [l.split("\t") for l in open(file_path).read().split("\n")][1:]
-    print (file)
     if current_user.email in admins:
         return render_template('responses.html', response=file)
 
