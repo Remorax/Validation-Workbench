@@ -64,7 +64,7 @@ a.navbar-item {
 	margin-right: 10px;
 }
 
-#submit-btn {
+#submit-btn, #dashboard-btn {
   background-color: #4CAF50; /* Green */
   border: none;
   border-radius: 10px;
@@ -76,11 +76,11 @@ a.navbar-item {
   font-size: 16px;
 }
 
-#submit-btn:hover {
+#submit-btn:hover, #dashboard-btn:hover {
 	cursor: pointer;	
 }
 
-#button-div {
+.button-div {
 	text-align: center;
 	padding: 40px;
 }
@@ -94,4 +94,14 @@ a.navbar-item {
     margin-top: 20px;
     margin-bottom: 0px;
     text-transform: uppercase;
+}
+
+.green {
+	background-color: green;
+	font-weight: bold;
+}
+
+.red {
+	background-color: red;
+	font-weight: bold;
 }
