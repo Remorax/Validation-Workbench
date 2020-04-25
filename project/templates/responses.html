@@ -50,12 +50,18 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {% for result in response %}
+                            {% for result, decision in file %}
                             <tr>
                                 <td class="row property">{{result[0]}}</td>
                                 <td class="row entity">{{result[1]}}</td>
-                                <td class="row accept"> <input type="radio" name="{{ 'radiobutton' + loop.index0|string }}" value="1" checked></td>
-                                <td class="row reject"> <input type="radio" name="{{ 'radiobutton' + loop.index0|string }}" value="0"> </td>
+                                {% if decision=='1' %}
+                                    <td class="row accept"> <input type="radio" name="{{ 'radiobutton' + loop.index0|string }}" value="1" checked></td>
+                                    <td class="row reject"> <input type="radio" name="{{ 'radiobutton' + loop.index0|string }}" value="0"></td>
+                                {% else %}
+                                    <td class="row accept"> <input type="radio" name="{{ 'radiobutton' + loop.index0|string }}" value="1"></td>
+                                    <td class="row reject"> <input type="radio" name="{{ 'radiobutton' + loop.index0|string }}" value="0" checked></td>
+                                {% endif %}
+                                
                             </tr>
                             
                             {% endfor %}

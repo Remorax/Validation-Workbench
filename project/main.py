@@ -29,7 +29,6 @@ def write_decisions():
     response_str = ",".join(list(request.form.values()))
     prev_response = Validation.query.filter_by(email=current_user.email).first()
     if prev_response:
-        print (prev_response)
         prev_response.response = response_str
     else:
         new_response = Validation(email=current_user.email, name=current_user.name, response=response_str)
@@ -46,7 +45,12 @@ def show_response():
     files.sort(key=os.path.getmtime, reverse=True)
     file_path = files[int(file_idx)]
     file = [l.split("\t") for l in open(file_path).read().split("\n")][1:]
-    return render_template('responses.html', response=file, is_admin=current_user.email in admins)
+    responses = ["1" for n in range(len(file))]
+    prev_response = Validation.query.filter_by(email=current_user.email).first()
+    if prev_response:
+        responses = prev_response.response.split(",")
+    print ([type(s) for s in prev_response.response])
+    return render_template('responses.html', file=list(zip(file, responses)), is_admin=current_user.email in admins)
 
 @main.route('/load-files', methods=["GET"])
 @login_required
