@@ -99,3 +99,7 @@ a.response-link:hover {
     background-color: #eee !important;
     cursor: pointer;
 }
+
+#files {
+    table-layout: fixed ;
+}
