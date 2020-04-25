@@ -2,6 +2,7 @@ import os
 from flask import Blueprint, render_template, request, jsonify
 from flask_login import login_required, current_user
 from . import db, admins, UPLOAD_FOLDER
+from .models import Validation
 from werkzeug.utils import secure_filename
 
 ALLOWED_EXTENSIONS = set(['tsv'])
@@ -18,10 +19,24 @@ def index():
 @main.route('/dashboard')
 @login_required
 def dashboard():
-    is_admin = False
-    if current_user.email in admins:
-        is_admin = True
+    is_admin = current_user.email in admins
     return render_template('dashboard.html', is_admin=is_admin)
+
+@main.route('/dashboard', methods=["POST"])
+@login_required
+def write_decisions():
+    is_admin = current_user.email in admins
+    response_str = ",".join(list(request.form.values()))
+    prev_response = Validation.query.filter_by(email=current_user.email).first()
+    if prev_response:
+        print (prev_response)
+        prev_response.response = response_str
+    else:
+        new_response = Validation(email=current_user.email, name=current_user.name, response=response_str)
+        db.session.add(new_response)
+    db.session.commit()
+    return render_template('dashboard.html', is_admin=is_admin)
+
 
 @main.route('/responses', methods=["GET"])
 @login_required
@@ -31,8 +46,7 @@ def show_response():
     files.sort(key=os.path.getmtime, reverse=True)
     file_path = files[int(file_idx)]
     file = [l.split("\t") for l in open(file_path).read().split("\n")][1:]
-    if current_user.email in admins:
-        return render_template('responses.html', response=file)
+    return render_template('responses.html', response=file, is_admin=current_user.email in admins)
 
 @main.route('/load-files', methods=["GET"])
 @login_required
