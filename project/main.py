@@ -26,14 +26,15 @@ def dashboard():
 @main.route('/dashboard', methods=["POST"])
 @login_required
 def write_decisions():
+    filename = list(request.form.values())[-1]
     is_admin = current_user.email in admins
     if not is_admin:
-        response_str = ",".join(list(request.form.values()))
-        prev_response = Validation.query.filter_by(email=current_user.email).first()
+        response_str = ",".join(list(request.form.values())[:-1])
+        prev_response = Validation.query.filter(Validation.email==current_user.email, Validation.file==filename).first()
         if prev_response:
             prev_response.response = response_str
         else:
-            new_response = Validation(email=current_user.email, name=current_user.name, response=response_str)
+            new_response = Validation(email=current_user.email, name=current_user.name, response=response_str, file=filename)
             db.session.add(new_response)
         db.session.commit()
     return render_template('dashboard.html', is_admin=is_admin)
@@ -50,14 +51,14 @@ def show_response():
     is_admin = current_user.email in admins
     if not is_admin:
         responses = ["1" for n in range(len(file))]
-        prev_response = Validation.query.filter_by(email=current_user.email).first()
+        prev_response = Validation.query.filter(Validation.email==current_user.email, Validation.file==file_idx).first()
         if prev_response:
             responses = prev_response.response.split(",")
         return render_template('responses.html', file=list(zip(file, responses)))
     else:
-        all_responses = [el.response.split(",") for el in Validation.query.all()]
+        all_responses = [el.response.split(",") for el in Validation.query.filter(Validation.file==file_idx).all()]
         all_responses = list(zip(*all_responses))
-        responses = [Counter({"0": 0, "1": 0}) for resp in all_responses]
+        responses = [Counter({"0": 0, "1": 0}) for resp in file]
         for i,resp in enumerate(all_responses):
             responses[i].update(resp)
         responses = [[el[1] for el in sorted(resp.items(), key=lambda x:int(x[0]))] for resp in responses]

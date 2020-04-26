@@ -55,11 +55,14 @@
                                 <td class="row property">{{result[0]}}</td>
                                 <td class="row entity">{{result[1]}}</td>
                                 {% if decision[0] < decision[1] %}
-                                    <td class="row accept green">{{ decision[1] }}</td>
+                                    <td class="row accept green">{{ decision[1] }} </td>
                                     <td class="row reject"> {{decision[0]}} </td>
+                                {% elif decision[0] > decision[1] %}
+                                    <td class="row accept"> {{decision[1]}} </td>
+                                    <td class="row reject red"> {{decision[0]}} </td>
                                 {% else %}
                                     <td class="row accept"> {{decision[1]}} </td>
-                                    <td class="row reject red"> {{decision[0]}}</td>
+                                    <td class="row reject"> {{decision[0]}} </td>
                                 {% endif %}
                                 
                             </tr>
