@@ -61,7 +61,6 @@ def show_response():
         for i,resp in enumerate(all_responses):
             responses[i].update(resp)
         responses = [[el[1] for el in sorted(resp.items(), key=lambda x:int(x[0]))] for resp in responses]
-        print (list(zip(file,responses)))
         return render_template('summary.html', file=list(zip(file,responses)))    
     
     
