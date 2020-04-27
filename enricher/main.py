@@ -156,7 +156,8 @@ open("relations.tsv", "w+").write("\n".join(["\t".join(l) for l in relations]))
 
 # Stage 2: Entity Resolution 
 
-threshold = 0.56 # Optimum threshold concluded from experiments (see similarity.py)
+threshold = 0.56 # Optimum threshold concluded from experiments 
+method = 'difflib'
 
 resolvedRelations = []
 
@@ -178,6 +179,13 @@ for elem in relations:
         
         # Return top matches above a certain threshold for difflib
         bestMatch = difflib.get_close_matches(item.lower(), [el[0].lower() for el in top_results], 1, threshold)[0]
+        if method == 'difflib':
+            bestMatch = difflib.get_close_matches(item.lower(), [el[0].lower() for el in top_results], 1, threshold)[0]
+            resolvedEntity = [el for el in top_results if el[0].lower()==bestMatch][0]
+        else:
+            sim_top_results = [(el[0], el[1], getSim(el[0].replace(":", ": "), item.replace(":", ": "))) for el in top_results]
+            sim_top_results = sorted(sim_top_results, key=lambda el: el[-1], reverse=True)
+            resolvedEntity = sim_top_results[0]
         resolvedEntity = [el for el in top_results if el[0].lower()==bestMatch][0]
         s = SequenceMatcher(lambda x: x == " ", bestMatch, item.lower())
         resolvedRelations.append((relation, resolvedEntity[1]))
